@@ -14,7 +14,7 @@ Mạch thời gian thực MKE-M09 RTC DS1307 real time clock module thuộc hệ
 - Chuẩn giao tiếp: Digital I2C
 - Các chân giao tiếp: SDA (Serial Data) / SCL (Serial Clock)
 - Điện áp giao tiếp: TTL 3.3/5VDC
-- IC thời gian thực: DS1307, datasheet.
+- IC thời gian thực: DS1307, [datasheet.](https://www.sparkfun.com/datasheets/Components/DS1307.pdf)
 - Tích hợp pin CR1220 lưu giữ thời gian khi không cấp nguồn.
 - Sử dụng trực tiếp an toàn với các board mạch giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
 - Bổ sung thêm các thiết kế ổn định, chống nhiễu.
@@ -100,9 +100,11 @@ Thuộc hệ sinh thái phần cứng Robotics MakerEdu, tương thích tốt nh
 [Hướng dẫn nạp chương trình, cài đặt Extension Micro:bit cơ bản.](https://github.com/makerlabvn/MakeCode-microbit)
 
 - Khởi động phần mềm MakeCode tại: [https://makecode.microbit.org/](https://makecode.microbit.org/)
-- Chọn My Projects / Import / Import URL theo đường link của chương trình mẫu: [https://github.com/devmakerlabvn/makecode-mke-s01-ultrasonic-distance-sensor](https://github.com/devmakerlabvn/makecode-mke-s01-ultrasonic-distance-sensor)
+- Chọn My Projects / Import / Import URL theo đường link của chương trình mẫu: 
+      
+      https://github.com/devmakerlabvn/makecode-mke-m09-rtc-ds1307-real-time-clock-module
 - Kết nối Micro:bit với máy tính và nạp chương trình.
-- Kết nối mạch Micro:bit với MakerEdu Shield, kết nối cảm biến tại cổng [P0+P1] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, **cấp nguồn qua cổng USB của MakerEdu Shield** để thấy chương trình hoạt động.
+- Kết nối mạch Micro:bit với MakerEdu Shield, kết nối module thời gian thực MKE-M09 và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, **cấp nguồn qua cổng USB của MakerEdu Shield** để thấy chương trình hoạt động.
 
 ## Hỗ trợ và liên hệ
 
